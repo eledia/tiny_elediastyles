@@ -114,7 +114,7 @@ Der Anwender kann nun Text markieren und einen Stil auswählen, um ihn anzuwende
 
 ## Lizenz
 
-Dieses Plugin steht unter der [GNU GPL v3 oder höher](https://www.gnu.org/copyleft/gpl.html).
+Dieses Plugin steht unter der [MIT License](https://opensource.org/licenses/MIT).
 
 ## Autor
 
