@@ -70,7 +70,7 @@ function tiny_elediastyles_process_settings_update($data, $setting = null){ // P
     if ($scss_code_from_settings === null) {
         \core\notification::error('SCSS konnte nicht kompiliert werden. Bitte prüfen Sie den Code.');
         $scss_code_from_settings = ''; // Fallback on empty string
-
+    }
     $compiled_css = tiny_elediastyles_compile_scss($scss_code_from_settings);
 
     if ($compiled_css !== false) {
@@ -82,8 +82,6 @@ function tiny_elediastyles_process_settings_update($data, $setting = null){ // P
     }
     theme_reset_all_caches();
     return true;
-
-    }
 }
 
 
